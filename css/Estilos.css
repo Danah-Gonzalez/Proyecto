@@ -1,0 +1,161 @@
+body{
+    background: rgb(219, 226, 228);
+    
+}
+
+:root{
+    --fuente:'Roboto Condensed', sans-serif 
+}
+
+/* Diseño del menu de opciones */
+
+.menu{
+    box-shadow: 0px 0px 15px 4px #000;
+    position: fixed;
+    background: rgb(94, 94, 136);
+    width: 100%;
+    font-family: var(--fuente);
+}
+
+.menu-L{
+    box-shadow: 0px 0px 8px 3px #000;
+    background: rgb(94, 94, 136);
+    width: 100%;
+    font-family: var(--fuente);
+}
+
+.menu__titulo{
+    float: left;
+    margin: 25px;
+    margin-right: 60px;
+    font-size: 30px;
+}
+
+.logo{
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/gestion-de-proyectos\ \(2\).png);
+    float: left;
+    margin: 15px;
+}
+
+.menu__opciones{
+    list-style: none;
+    display: flex;   
+}
+
+.menu__opciones li{
+    font-size: 20px;
+    margin: 30px 10px;
+    border-radius: 5px; 
+    padding: 5px; 
+}
+
+.menu__opciones li:hover{
+    text-shadow: 0px 0px 15px white;
+    transition: .5s;
+}
+
+.menu__opciones a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Diseño del Cuerpo de la pagina */
+
+/* Pagina de Inicio */
+.cuerpo__inicio{
+    width: 100vw;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fuente);
+}
+
+.cuerpo__texto{
+    width: 1250px;
+    text-align: center;
+}
+
+.cuerpo__texto h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.cuerpo__texto p{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Cuerpo de paginas */
+.cuerpo{
+    width: 100vw;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    font-family: var(--fuente);
+}
+
+.textos{
+    width: 1250px;
+    text-align: justify;
+    margin-top: 100px;
+}
+
+h2{
+    margin-top: 120px;
+    font-size: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h4{
+    margin-top: 40px;
+    font-size: 45px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+p{
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.transparent{
+    color: rgb(219, 226, 228);
+}
+
+b{
+    display: block;
+    text-align: justify;
+    font-size: 30px;
+    margin: 15px 0px 15px 0px;
+}
+
+img{
+    display: block;
+    margin: 40px auto 40px auto;
+}
+
+.imagenP{
+    display: inline;
+    margin-left: 35px;
+}
+
+.imagenHB{
+    display: inline;
+    margin-left: 150px;
+}
+
+.container-wrapper-genially{
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 5px;
+}
+
+.container-wrapper-genially b{
+    text-align: center;
+}
+
